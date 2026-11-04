@@ -176,3 +176,9 @@ CodeMentor AI corresponde a un prototipo académico de aplicación de inteligenc
 
 La aplicación está orientada al acompañamiento académico y constituye una aproximación al uso de modelos de lenguaje como herramientas de apoyo para el aprendizaje de Ingeniería de Software.
 
+## Docente: 
+Juan José Osorio Tabares 
+## Programa: 
+Ingeniería de Software
+Universidad Manuela Beltrán
+
