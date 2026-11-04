@@ -39,18 +39,18 @@ Se busca explorar la aplicación de la inteligencia artificial generativa en con
 ## 5. Estructura del proyecto
 
 ```text
-CodeMentorAI/
-│
-├── src/
-│   ├── Main.java
-│   ├── VistaPrincipal.java
-│   ├── GeminiService.java
-│   └── PromptAcademico.java
-│
-├── out/
-│   └── Archivos compilados (.class)
-│
-└── README.md
+src/
+├── Main.java                 Punto de entrada de la aplicación
+├── vista/
+│   ├── VistaPrincipal.java   Ventana principal del chat
+│   ├── ContenedorChat.java   Panel con scroll que apila las burbujas
+│   ├── BurbujaChat.java      Burbuja de mensaje redondeada
+│   ├── CampoRedondeado.java  Campo de texto con bordes redondeados
+│   ├── BotonRedondeado.java  Botón con bordes redondeados
+│   └── IconoRobot.java       Ícono del robot del encabezado
+└── ia/
+    ├── GeminiService.java    Conexión con la API de Gemini e historial
+    └── PromptAcademico.java  Instrucciones que definen el rol del asistente
 ```
 
 ### Descripción de los archivos
